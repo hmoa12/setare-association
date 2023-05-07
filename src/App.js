@@ -5,6 +5,7 @@ function App() {
     <div className="App">
       <div className="text-xl">
         Testing firebase
+        <div>Hello</div>
       </div>
     </div>
   );
