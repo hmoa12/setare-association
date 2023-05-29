@@ -17,6 +17,9 @@ const Main = ({contents}) => {
                 <h1 className="text-4xl sm:text-6xl pb-5 title">
                     {contents.TITLE}
                 </h1>
+                <div className="intro">
+                    {contents.INTRO}
+                </div>
            </Fade>
         </div>
     )
