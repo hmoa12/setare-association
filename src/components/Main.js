@@ -13,13 +13,13 @@ const Main = ({contents}) => {
 
     return (
            <Fade duration="3000">
-        <div className="main p-5 text-center" dir={direction}>
-                <h1 className="text-4xl sm:text-6xl pb-10 title font-bold">
+        <div className="main p-5 text-center bg-cover bg-center sm:bg-content" dir={direction}>
+                <h1 className="text-4xl sm:text-6xl pb-10 title font-bold text-white stroke-slate-300">
                     {contents.TITLE}
                 </h1>
 
                 <div className="w-full text-center flex justify-center">
-                <div className="bg-white p-5 bg-opacity-60 w-[70%] text-center rounded-lg border-green-100 border-[1px]">
+                <div className="bg-white p-5 bg-opacity-60 sm:w-[70%] text-center rounded-lg border-green-100 border-[1px]">
                     <div className="text-4xl sm:text-6xl pb-5">
                         {contents.LOADING.TITLE}
                     </div>

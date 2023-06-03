@@ -12,3 +12,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.main {
+  height: 100vh;
+  background-image: url(./assets/cover.jpg);
+  background-repeat: no-repeat;
+}
