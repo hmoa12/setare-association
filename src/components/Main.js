@@ -13,26 +13,26 @@ const Main = ({contents}) => {
 
     return (
            <Fade duration="3000">
-        <div className="main p-5 text-center bg-cover bg-center sm:bg-content" dir={direction}>
-                <h1 className="text-4xl sm:text-6xl pb-10 title font-bold text-white stroke-slate-300">
-                    {contents.TITLE}
-                </h1>
+                <div className="main p-5 text-center bg-cover bg-center sm:bg-content" dir={direction}>
+                        <h1 className="text-4xl sm:text-6xl pb-10 title font-bold text-white stroke-slate-300">
+                            {contents.TITLE}
+                        </h1>
 
-                <div className="w-full text-center flex justify-center">
-                <div className="bg-white p-5 bg-opacity-60 sm:w-[70%] text-center rounded-lg border-green-100 border-[1px]">
-                    <div className="text-4xl sm:text-6xl pb-5">
-                        {contents.LOADING.TITLE}
-                    </div>
-                    <div className="text-2xl sm:text-4xl">
-                        {contents.LOADING.DESCRIPTION}
-                    </div>
+                        <div className="w-full text-center flex justify-center">
+                            <div className="bg-white p-5 bg-opacity-60 sm:w-[70%] text-center rounded-lg border-green-100 border-[1px]">
+                                <div className="text-4xl sm:text-6xl pb-5">
+                                    {contents.LOADING.TITLE}
+                                </div>
+                                <div className="text-2xl sm:text-4xl">
+                                    {contents.LOADING.DESCRIPTION}
+                                </div>
 
-                    <button className="mt-10 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                        <a href="mailto:setare-association@gmail.com">{contents.LOADING.MAIL}</a>
-                    </button>
+                                <button className="mt-10 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                                    <a href="mailto:setareassociation@gmail.com">{contents.LOADING.MAIL}</a>
+                                </button>
+                            </div>
+                        </div>
                 </div>
-                </div>
-        </div>
            </Fade>
     )
 }
